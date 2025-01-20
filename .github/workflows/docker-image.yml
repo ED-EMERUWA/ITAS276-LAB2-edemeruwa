@@ -15,4 +15,4 @@ jobs:
     steps:
     - uses: actions/checkout@v4
     - name: Build the Docker image
-      run: docker build . --file Dockerfile --tag ITAS276-lab2:$(date +%s)
+      run: docker build . --file ./Lab2-Samples-Dockerfile/Dockerfile --tag ITAS276-lab2:$(date +%s)
